@@ -9,14 +9,18 @@ const researchPapers = [
     link: "https://example.com/paper-2",
     author: "Author 2",
   },
-  // Add more research papers as needed
+  {
+    title: "Paper 3 Title",
+    link: "https://example.com/paper-3",
+    author: "Author 3",
+  },
 ];
 
 const Research = () => {
   return (
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8">Recommended Research Papers</h2>
+        <h2 className="text-center text-3xl font-bold mb-8">Recommended Research Papers</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {researchPapers.map((paper, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-6">

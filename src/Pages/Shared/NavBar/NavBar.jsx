@@ -15,13 +15,19 @@ const NavBar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/menu">College</Link>
+          <Link to="/college">College</Link>
         </li>
         <li>
-          <Link to="/order/salad">Admission</Link>
+          <Link to="/admission">Admission</Link>
         </li>
         <li>
-          <Link to="/secret">My College</Link>
+          <Link to="/myCollege">My College</Link>
+        </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+        <li>
+          <Link to="/signUp">SignUp</Link>
         </li>
 
         {/* {user ? (
@@ -66,7 +72,7 @@ const NavBar = () => {
               {navItem}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">CampusEase</a>
+          <a className="btn btn-ghost normal-case text-2xl">CampusEase</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItem}</ul>
